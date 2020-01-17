@@ -17,13 +17,6 @@ public class Wander : MonoBehaviour
 
     void Start()
     {
-        // Initialize goal point to be 1 unit ahead in the z direction of the character
-        /*goalPoint.x = character.position.x;
-        goalPoint.z = character.position.z + 1;
-        goalPoint.y = character.position.y;
-
-        character.LookAt(goalPoint);*/
-
         // Initialize rigidbody
         rigBody = GetComponent<Rigidbody>();
     }
